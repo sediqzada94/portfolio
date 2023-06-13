@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@layer base {
+ body {
+    @apply font-[poppins]
+ }
+ .link {
+     @apply px-4 py-2 text-start rounded-md transition hover:cursor-pointer hover:bg-slate-700;
+} }
